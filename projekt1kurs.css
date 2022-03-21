@@ -37,13 +37,6 @@ button {
 :hover.contact-but {
   cursor: not-allowed;
 }
-
-#about {
-  background-color: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 30px;
-}
 #header {
   height: 100vh;
 }
@@ -80,6 +73,13 @@ button {
 h1,
 h3 {
   font-weight: 700;
+}
+
+#about {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
 }
 
 .people-title {
