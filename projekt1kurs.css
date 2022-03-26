@@ -8,12 +8,10 @@
 .container {
   width: 960px;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 #nav-bar {
-  width: auto;
-  padding: 20px 30px;
+  padding: 20px 25px;
   background-color: #4e4e4e;
   color: white;
   display: flex;
@@ -70,8 +68,10 @@ button {
   color: black;
   transition: 1s ease;
 }
+
 h1,
 h3 {
+  padding: 20px 0px;
   font-weight: 700;
 }
 
@@ -82,23 +82,31 @@ h3 {
   padding: 20px 30px;
 }
 
-.people-title {
+.people-title,
+.offer-title {
   margin: 0%;
   padding-bottom: 20px;
 }
+
 .people {
   padding: 20px;
   display: flex;
   justify-content: space-around;
   gap: 20px;
 }
-.opis {
+
+.opis,
+.opis-right {
   margin: 0%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-evenly;
 }
+
+.opis-right {
+  text-align: right;
+}
+
 .people:nth-of-type(even) {
   flex-direction: row-reverse;
 }
@@ -109,7 +117,7 @@ h3 {
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: lightblue;
 }
 img {
   width: auto;
