@@ -142,6 +142,7 @@ img {
   height: 180px;
   background-color: #f1f1f1;
   color: black;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
